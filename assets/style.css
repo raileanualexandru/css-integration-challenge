@@ -1,0 +1,61 @@
+h1{
+    color: gray;
+}
+p{
+    color: rgb(101, 101, 101);
+}
+.hline{
+    border-bottom: 1px dotted blue;
+    margin: 5px 0px 30px 0px;
+    width: 1100px;
+}
+.interface1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0px 100px 0px 100px;
+   
+}
+
+.card{
+    width: 220px;
+    height: 370px;
+}
+.interface1 h4{
+    color: rgb(88, 197, 139);
+}
+.interface1 p{
+color: rgb(101, 101, 101)
+}
+
+@media only screen and (max-width: 768px){
+    .hline{
+        border-bottom: 1px dotted blue;
+        margin: 5px 0px 30px 0px;
+        width: 700px;
+    }
+    .interface1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0px 100px 0px 100px;
+}
+}
+@media only screen and (max-width: 576px){
+    .hline{
+        border-bottom: 1px dotted blue;
+        margin: 5px 0px 30px 0px;
+        width: 500px;
+    }
+    .interface1{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0px 100px 0px 100px;
+}
+}
+
+
+.chart{
+    margin-left: 100px;
+    width:332px;
+    height:516px;
+    background-color: rgb(89, 105, 245);
+}
